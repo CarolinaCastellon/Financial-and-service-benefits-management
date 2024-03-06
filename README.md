@@ -9,4 +9,20 @@ La presentación clara de los beneficios disponibles, junto con una retroaliment
 
 La implementación del sistema debe seguir los principios SOLID para asegurar un código mantenible y extensible. Cada microservicio debe ser construido con un propósito específico, desde gestionar la autenticación de usuarios hasta procesar complejas recomendaciones de beneficios. La seguridad fue debe estar en cada etapa empleando las mejores prácticas para proteger la información personal y financiera de los usuarios.
 
+#Single Responsibility Principle (Principio de Responsabilidad Única)
+
+
+#Open/Closed Principle (Principio de Abierto/Cerrado)
+
+
+#Substitution Principle (Principio de Sustitución de Liskov)
+
+
+#Interface Segregation Principle (Principio de Segregación de Interfaces)
+
+
+#Dependency Inversion Principle (Principio de Inversión de Dependencias)
+
+
+
 ![diagrama de clase](https://github.com/CarolinaCastellon/Financial-and-service-benefits-management/assets/143035706/92be5929-d69f-416c-b85c-6f7b007eefba)

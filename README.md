@@ -11,7 +11,7 @@ La implementación del sistema debe seguir los principios SOLID para asegurar un
 
 # SOLID
 
-# Single Responsibility Principle (Principio de Responsabilidad Única)
+### Single Responsibility Principle (Principio de Responsabilidad Única)
 Cada una de las clases tiene una única responsabilidad, la cual está bien definida en el programa.
 * Por ejemplo, la clase User maneja la información del usuario y sus beneficios, mientras que la clase Account se encarga de la gestión de cuentas y transacciones.
   

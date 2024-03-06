@@ -26,11 +26,14 @@ Los objetos de un programa deben ser reemplazables por instancias de sus subtipo
 ### Interface Segregation Principle (Principio de Segregación de Interfaces)
 Las interfaces más grandes deben dividirse en interfaces más pequeñas y específicas para que los clientes solo tengan que conocer los métodos que son relevantes para el uso de ellos. 
 * En este programa, las clases tienen métodos específicos para sus responsabilidades, lo que evita que los clientes dependan de métodos innecesarios.
+* Por ejemplo, la clase User define métodos relacionados con usuarios como add_benefit, mientras que la clase Account define métodos relacionados con cuentas como add_transaction.
 
 ### Dependency Inversion Principle (Principio de Inversión de Dependencias)
 Los módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deben depender de abstracciones. 
 
-En el programa, las clases se comunican entre sí a través de interfaces o métodos abstractos en lugar de depender directamente de cómo están implementadas esas clases. Esto significa que una clase no necesita conocer los detalles internos de otra clase para interactuar con ella. En cambio, solo necesita conocer la interfaz pública que la otra clase proporciona. Esto hace que sea más fácil agregar nuevas funcionalidades o cambiar la implementación de una clase sin afectar a las demás, lo que facilita la extensión y el mantenimiento del código.
+* En el programa, las clases se comunican entre sí a través de interfaces o métodos abstractos en lugar de depender directamente de cómo están implementadas esas clases. Esto significa que una clase no necesita conocer los detalles internos de otra clase para interactuar con ella. En cambio, solo necesita conocer la interfaz pública que la otra clase proporciona. Esto hace que sea más fácil agregar nuevas funcionalidades o cambiar la implementación de una clase sin afectar a las demás, lo que facilita la extensión y el mantenimiento del código.
+
+* Por ejemplo, la clase User depende de la abstracción proporcionada por la clase Account para agregar transacciones a la cuenta del usuario, pero no depende de la implementación específica de la clase Account. Esto permite una fácil extensión y mantenimiento del código, ya que las clases de alto nivel (como User) no están acopladas a las clases de bajo nivel (como Account). En cambio, ambas clases dependen de abstracciones comunes.
 
 
 ![diagrama de clase](https://github.com/CarolinaCastellon/Financial-and-service-benefits-management/assets/143035706/92be5929-d69f-416c-b85c-6f7b007eefba)

@@ -9,19 +9,20 @@ La presentación clara de los beneficios disponibles, junto con una retroaliment
 
 La implementación del sistema debe seguir los principios SOLID para asegurar un código mantenible y extensible. Cada microservicio debe ser construido con un propósito específico, desde gestionar la autenticación de usuarios hasta procesar complejas recomendaciones de beneficios. La seguridad fue debe estar en cada etapa empleando las mejores prácticas para proteger la información personal y financiera de los usuarios.
 
-#Single Responsibility Principle (Principio de Responsabilidad Única)
+# Single Responsibility Principle (Principio de Responsabilidad Única)
+Cada una de las clases tiene una unica responsabilidad la cual esta bien definida en el programa.
+* Por ejemplo, la clase User maneja la información del usuario y sus beneficios, mientras que la clase Account se encarga de la gestión de cuentas y transacciones.
+
+# Open/Closed Principle (Principio de Abierto/Cerrado)
 
 
-#Open/Closed Principle (Principio de Abierto/Cerrado)
+# Substitution Principle (Principio de Sustitución de Liskov)
 
 
-#Substitution Principle (Principio de Sustitución de Liskov)
+# Interface Segregation Principle (Principio de Segregación de Interfaces)
 
 
-#Interface Segregation Principle (Principio de Segregación de Interfaces)
-
-
-#Dependency Inversion Principle (Principio de Inversión de Dependencias)
+# Dependency Inversion Principle (Principio de Inversión de Dependencias)
 
 
 
